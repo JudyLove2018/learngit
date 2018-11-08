@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configuration>
+
+    <!--时间标志-->
+    <!--<property>-->
+        <!--<name>对应名称</name>-->
+        <!--<value>内容</value>-->
+        <!--<type>内容类型</type>-->
+        <!--<id>默认截取内容</id>-->
+        <!--<description>对内容处理函数名称</description>-->
+    <!--</property>-->
+    <!-- < == &lt; -->
+    <!-- > == &gt; -->
+    <!-- & == &amp; -->
+    <!-- ' == &apos; -->
+    <!-- " == &quot; -->
+    <property>
+        <name>pat</name>
+        <value>{
+            'sd':'[][]*?(?=-d1)',
+
+            }
+        </value>
+        <type>list</type>
+        <id>('','')</id>
+        <description>需要编译value值,{k:re.compile(v)},添加方式:''</description>
+    </property>
+
+
+</configuration>
